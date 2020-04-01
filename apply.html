@@ -1,0 +1,134 @@
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/apply.css">
+<link rel="stylesheet" href="css/all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/0dfdec2c7e.js"></script>
+
+<div class="logo">[Server]</div>
+<img class="backguy" style="bottom: 0vw; left: 67vw; top: unset;" src="img/pic3.png">
+
+<ul class="menu">
+    <li class="menuitem" onclick="openLink('start')">Start</li>
+    <li class="menuitem" onclick="openLink('about')">About</li>
+    <li class="menuitem" onclick="openLink('rules')">Rules</li>
+    <li class="menuitem" onclick="openLink('whitelist')">Whitelist</li>
+    <li class="menuitem" onclick="openLink('apply')" style="border-color: #3ca918">Apply</li>
+    <li class="menuitem" onclick="openLink('contact')">Contact</li>
+    <li class="menuitem" onclick="openLink('partner')">Partner</li>
+    <li class="menuitem" onclick="openLink('imprint')">Imprint</li>
+</ul>
+
+<div class="maintext">
+
+    <form method="post" action="php/apply.php" enctype='multipart/form-data'>
+
+        <p>Nickname & Discordname*</p>
+        <p><input type="text" name="username" required></p>
+
+        <p>Rank*</p>
+        <p>
+            <select name="subject" onclick="selectRang(this.value)" required>
+                <option value="Developer">Developer</option>
+                <option value="Supporter">Supporter</option>
+                <option value="Concept">Concept</option>
+                <option value="others">Others</option>
+            </select>
+        </p>
+
+        <p>E-Mail-Adress*</p>
+        <p><input type="email" name="email" required></p>
+
+        <p>Informations*</p>
+        <p><textarea name="body" required></textarea ></p >
+    
+        <p>Files (PDF Documents, References etc.)</p>
+        <p><input type="file" class="input-file" name="data"></p>
+
+        <p >
+        <input type="submit" name="submit" value="Nachricht abschicken" >
+        </p >
+
+        <div class="dev">
+                <p>Which scripting languages are you good at?</p>
+                <p><input type="text" name="dev-scriptsprache"></p >
+
+                <p>In which language would you like to work?</p>
+                <p><input type="text" name="dev-vorstellung"></p >
+
+                <p>How many years have you been developing?</p>
+                <p><input type="text" name="dev-since"></p >
+
+                <p>Which networks have you been to (name & game)?</p>
+                <p><input type="text" name="dev-network"></p >
+
+                <p>What is your online time like?</p>
+                <p><input type="text" name="dev-time"></p >
+        </div>
+
+        <div class="sup" style="display: none;">
+                <p>What tasks do you think support has?</p>
+                <p><input type="text" name="sup-aufgabe"></p >
+
+                <p>Where / when does support start and where does it end?</p>
+                <p><input type="text" name="sup-start"></p >
+
+                <p>What does the term "support" mean to me?</p>
+                <p><input type="text" name="sup-begriff"></p >
+
+                <p>How much time do I have for my support activities? (Approximately)</p>
+                <p><input type="text" name="sup-time"></p >
+
+                <p>Do I have special rights as a player if I also work in support?</p>
+                <p><input type="text" name="sup-right"></p >
+
+                <p>What are the online times like?</p>
+                <p><input type="text" name="sup-online"></p >
+        </div>
+
+        <div class="kon" style="display: none;">
+                <p>What tools are you familiar with for concepts?</p>
+                <p><input type="text" name="kon-tools"></p >
+
+                <p>What is a finished concept for you?</p>
+                <p><input type="text" name="kon-fertig"></p >
+
+                <p>What do you look for in a concept?</p>
+                <p><input type="text" name="kon-worauf"></p >
+
+                <p>What time limit do you set yourself when working on a concept?</p>
+                <p><input type="text" name="kon-limit"></p >
+
+                <p>What is your attitude to working in a team?</p>
+                <p><input type="text" name="kon-setting"></p >
+
+                <p>What are your online times like?</p>
+                <p><input type="text" name="kon-online"></p >
+        </div>
+
+        <div class="son" style="display: none;">
+                <p>Describe your rank?</p>
+                <p><input type="text" name="son-beschreibung"></p >
+
+                <p>What is the role of rank?</p>
+                <p><input type="text" name="son-aufgaben"></p >
+
+                <p>Do you have previous experience in this area?</p>
+                <p><input type="text" name="son-erfahrung"></p >
+
+                <p>How much time will the activities take?</p>
+                <p><input type="text" name="son-time"></p >
+
+                <p>What is your attitude to working in a team?</p>
+                <p><input type="text" name="son-setting"></p >
+
+                <p>What are your online times like?</p>
+                <p><input type="text" name="son-online"></p >
+        </div>
+    
+    </form >
+    
+</div>
+</html>
+<!--Copyright (c) 2020 TechKings.de-->

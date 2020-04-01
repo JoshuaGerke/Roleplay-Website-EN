@@ -1,0 +1,411 @@
+body {background: #2d313f;}
+
+.logo {
+    background: #3ca918;
+    position: absolute;
+    width: 10vw;
+    height: 5vw;
+    left: 8vw;
+    text-align: center;
+    color: #fff;
+    line-height: 4.75vw;
+    font-size: 1.5vw;
+    font-family: 'Hammersmith One';
+}
+
+.backguy {
+    position: absolute;
+    left: 55vw;
+    top: 3vw;
+    width: 26vw;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0vw;
+    padding: 0vw;
+    position: absolute;
+    width: 50vw;
+    height: 5vw;
+    left: 20vw;
+    line-height: 2vw;
+}
+
+.menuitem {
+    color: #fff;
+    float: left;
+    margin: 1.5vw;
+    font-family: 'Hammersmith One';
+    cursor: pointer;
+    border-bottom: 0.1vw solid transparent;
+    height: 1.5vw;
+    font-size: 0.8vw;
+}
+
+.maintext {
+    position: absolute;
+    width: 60vw;
+    left: 21vw;
+    top: 9vw;
+    overflow: hidden;
+    height: 114vw;
+}
+
+.title {
+    font-family: 'Staatliches';
+    color: #fff;
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+    width: 40vw;
+}
+
+.description {
+    color: #fff;
+    letter-spacing: 0vw;
+    line-height: 1vw;
+    font-size: 0.75vw;
+    width: 36vw;
+    position: absolute;
+    top: 4vw;
+    font-family: 'Arial';
+}
+
+.title2 {
+    font-family: 'Staatliches';
+    color: #fff;
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+    position: absolute;
+    left: 40vw;
+    width: 40vw;
+    top: 0vw;
+}
+
+.description2 {
+    color: #fff;
+    font-family: 'Hammersmith One';
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+    font-size: 0.75vw;
+    position: absolute;
+    left: 40vw;
+    width: 36vw;
+    top: 4vw;
+}
+
+.title3 {
+    font-family: 'Staatliches';
+    color: #fff;
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+    left: 80vw;
+    width: 80vw;
+    position: absolute;
+    top: 0vw;
+}
+
+.description3 {
+    color: #fff;
+    font-family: 'Hammersmith One';
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+    font-size: 0.75vw;
+    left: 80vw;
+    width: 36vw;
+    position: absolute;
+    top: 4vw;
+}
+
+.title4 {
+    font-family: 'Staatliches';
+    color: #fff;
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+    left: 120vw;
+    width: 120vw;
+    top: 0vw;
+    position: absolute;
+}
+
+.description4 {
+    color: #fff;
+    font-family: 'Hammersmith One';
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+    font-size: 0.75vw;
+    position: absolute;
+    left: 120vw;
+    width: 36vw;
+    top: 4vw;
+}
+
+.button1 {
+    color: #fff;
+    position: absolute;
+    font-size: 1vw;
+    font-family: 'Staatliches';
+    background: #3ca918;
+    padding: 1vw;
+    width: 8vw;
+    text-align: center;
+    height: 1vw;
+    line-height: 1.1vw;
+    top: 14vw;
+    cursor: pointer;
+}
+
+.bar {
+    position: absolute;
+    bottom: 0vw;
+    left: 0vw;
+    right: 0vw;
+    height: 13vw;
+}
+
+.sec1 {
+    float: left;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0vw;
+    width: 25vw;
+    height: 100%;
+    box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+.sec1time {
+    color: #3ca918;
+    font-size: 2vw;
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+    font-family: 'Hammersmith One';
+}
+
+.sec1title {
+    color: #fff;
+    font-size: 1.5vw;
+    position: absolute;
+    left: 2vw;
+    top: 5vw;
+    font-family: 'Hammersmith One';
+}
+
+.sec1subtitle {
+    color: #a0a0a052;
+    font-size: 0.75vw;
+    position: absolute;
+    left: 2vw;
+    top: 7vw;
+    width: 11vw;
+    line-height: 1.5vw;
+    font-family: 'arial';
+}
+
+.sec2 {
+    float: left;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 25vw;
+    width: 25vw;
+    height: 100%;
+    box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+.sectitle {
+    position: absolute;
+    color: #fff;
+    font-family: 'Hammersmith One';
+    font-size: 1vw;
+    left: 2vw;
+    top: 2vw;
+}
+
+.secsubtitle {
+    position: absolute;
+    color: #3ca918;
+    font-family: 'Staatliches';
+    font-size: 1.5vw;
+    left: 2vw;
+    top: 3.25vw;
+}
+
+.secslots {
+    position: absolute;
+    color: #b3b3b3d9;
+    font-size: 0.7vw;
+    left: 2vw;
+    top: 5.25vw;
+    font-family: 'Arial';
+}
+
+.secip {
+    position: absolute;
+    color: #3ca918;
+    font-family: 'Staatliches';
+    font-size: 1.5vw;
+    left: 2vw;
+    top: 9.25vw;
+    cursor: pointer;
+}
+
+.secbarfull {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 11.25vw;
+    width: 21vw;
+    height: 0.25vw;
+    left: 2vw;
+}
+
+.secinbar {
+    width: 50%;
+    background: #3ca918;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    height: 100%;
+}
+
+.secbadge {
+    position: absolute;
+    background: #3ca918;
+    width: 5vw;
+    height: 2vw;
+    text-align: center;
+    font-size: 0.75vw;
+    color: #fff;
+    font-family: 'Hammersmith One';
+    line-height: 2vw;
+    left: 17vw;
+    top: 2vw;
+}
+
+.sec3 {
+    float: left;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 50vw;
+    width: 25vw;
+    height: 100%;
+    box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+.sec4 {
+    float: left;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 75vw;
+    width: 25vw;
+    height: 100%;
+    box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+.green {
+    color: #3ca918 !important;
+}
+
+.pink {
+    color: #c21f4a !important;
+}
+
+.blue {
+    color: #1f2ac2 !important;
+}
+
+.greenbg {
+    background: #3ca918 !important;
+}
+
+.pinkbg {
+    background: #c21f4a !important;
+}
+
+.bluebg {
+    background: #1f2ac2 !important;
+}
+
+.grey1 {
+    color: #ffffff3d;
+    font-size: 1vw;
+    position: absolute;
+    top: 9.6vw;
+    left: 8.5vw;
+    cursor: pointer;
+}
+
+.grey2 {
+    color: #ffffff3d;
+    font-size: 1vw;
+    position: absolute;
+    top: 9.6vw;
+    left: 18.5vw;
+    cursor: pointer;
+}
+
+.grey3 {
+    color: #ffffff3d;
+    font-size: 1vw;
+    position: absolute;
+    top: 9.6vw;
+    left: 7vw;
+    cursor: pointer;
+}
+
+.about-title1 {
+    font-family: 'Staatliches';
+    color: #fff;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 6vw;
+    left: 7vw;
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: 0.2vw solid rgba(0, 0, 0, 0.005);
+}
+
+.about-title2 {
+    font-family: 'Staatliches';
+    color: #fff;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 6vw;
+    left: 24vw;
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: 0.2vw solid rgba(0, 0, 0, 0.005);
+}
+
+.about-title3 {
+    font-family: 'Staatliches';
+    color: #fff;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 6vw;
+    left: 37vw;
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: 0.2vw solid rgba(0, 0, 0, 0.005);
+}
+
+.about-title4 {
+    font-family: 'Staatliches';
+    color: #fff;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 6vw;
+    left: 49vw;
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: 0.2vw solid rgba(0, 0, 0, 0.005);
+}
+
+.intext {
+    
+position: absolute;
+    
+right: 0vw;
+}

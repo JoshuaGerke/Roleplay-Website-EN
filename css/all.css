@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Russo+One|Staatliches&display=swap');
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background: url(../img/background.png);
+    background-size: cover;
+    margin: 0vw;
+    animation: fadein 1s;
+}
+
+::-webkit-scrollbar {
+    width: 0.3vw;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3ca918;
+}
+
+a {
+    color: #3ca918;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0vw;
+    padding: 0vw;
+    position: absolute;
+    width: 80vw;
+    height: 5vw;
+    left: 20vw;
+    line-height: 2vw;
+}
